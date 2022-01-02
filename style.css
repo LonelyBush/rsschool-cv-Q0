@@ -1,0 +1,178 @@
+@import url(normalize.css);
+body {
+   font-family: 'Roboto', sans-serif;
+   background-color: #CDBC9B;
+   font-size: 24px;
+   padding: 1%;
+}
+.avatar {
+    display: flex;
+
+    box-shadow: 0 0 7px #BDDBD5;
+    border-radius: 200px;
+    border: 2px solid #1E3531;
+    width: 100%
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20%;
+}
+.full-CV {
+    display: flex;
+    max-width: 1100px;
+    margin: auto;
+   
+    flex-direction: row;
+    box-shadow: 0 0 15px #1E3531;
+
+}
+.quickInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 35%;
+    background-color: #576D74;
+    padding: 15px;
+    color: #fffff2;
+}
+.line-quickInfo {
+    display: flex;
+    width: 100%;
+    border: 0.5px solid #E7E2D6;
+}
+
+.contacts-list {
+    list-style-type: none;
+    background-size: 22px;
+    background-repeat: no-repeat;
+    padding-left: 12%;
+
+
+}
+
+.telegram-logo {
+    background-image: url(contacts/telegram.png)
+
+}
+.discord-logo{
+    background-image: url(contacts/discord-logo.png)
+}
+.gmail-logo{
+    background-image: url(contacts/gmail.png)
+}
+ul {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 5%;
+    font-size: 22px;
+
+}
+.main-place {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 70%;
+    color: #10201D;
+    padding: 15px;
+    background-color: #E7E2D6;
+}
+    
+* {
+    box-sizing: border-box;
+}
+p {
+    padding: 1%;
+}
+.line-main {
+    display: flex;
+    width: 100%;
+    border: 0.5px solid #10201D;
+}
+.title-main {
+    display: flex;
+    justify-content: flex-end;
+}
+.education-univ {
+display: flex;
+padding: 2%;
+
+}
+.education-spec {
+    display: flex;
+    padding-left: 5%;
+    font-size: 20px;
+}
+
+.about-me {
+    display: flex;
+    padding: 2%;
+    font-size: 20px;
+    
+}
+.code-example {
+    display: flex;
+    font-style: italic;
+    font-size: 20px;
+    padding: 2%;
+}
+h3, h4, h5 {
+    display: flex;
+    margin: 2%;
+}
+h1 {
+    font-size: 30px;
+}
+
+code, pre {
+    display: flex;
+    background-color: #d4d4d4;
+    color: black;
+    font-size: 15px;
+
+}
+
+/*Гиперссылки*/
+a{
+color:#10201D;
+    display: flex;
+    text-decoration: none;
+    transition: all .3s linear;
+  }
+  
+  a:hover{
+    color: #76948E;
+  }
+  .a-contacts {
+    color:#fffff2;
+    display: flex;
+    text-decoration: none;
+    transition: all .3s linear;
+  }
+  footer {
+      display: flex;
+      max-width: 1100px;
+      margin: auto;
+    padding: 15px;
+    background-color: #85938D;
+      flex-direction: row;
+      box-shadow: 0 0 15px #1E3531;
+  }
+.footer-img {
+    display: flex;
+    justify-content: flex-start;
+    width: 35%;
+
+}
+.footer-link:hover {
+  
+    box-shadow: 0 0 7px #1E3531;
+}
+.year {
+    display: flex;
+    justify-content: flex-end;
+    width: 70%;
+    align-items: center;
+    color:#fffff2;
+}
