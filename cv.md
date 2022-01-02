@@ -3,33 +3,29 @@
 
 # Contact information
 
-* **Phone:** +375293301782
+* **Discord** BonelyLush#0480
 * **e-mail:** lonely.bush68@gmail.com
 * **Telegram:** @LonelyBush
 
 
 # About myself
 
-I graduated from the university with a degree in Economics and Organization of Production with the assigned profession of engineer-economist. At the moment I work as a manager for foreign economic relations. My responsibilities include the sale of products for export. I work and communicate with European customers. I organize sales logistics, keep records of sales, and also control accounts receivable.
-Also, my responsibilities include maintaining and filling the company's website with information.
-Why do I want to try my hand at the front-end direction? 
-Because I always wanted to create something new not just add content.
+I am 24 years old. My current job is full of ordinary and uninteresting routine. However, among my colleagues, I have established myself as a responsible, reliable and executive person. I have always wanted to try my hand at web development, because I am attracted by the tasks that this activity poses for itself. I know I still have a lot to learn, but I believe that with the right approach, I will eventually achieve my goal. The main thing is to never stop working and always be ready to learn something new !
 
 
 
 # Skills
-* HTML5 
+* HTML5
 * CSS3
-* JavaScript Basics
+* JavaScript - Basics
 * Adobe Photoshop
-* Flexbox and Grid 
-* Bootstrap - basics
+* Flexbox Grid - Basics
+* Bootstraps
 
 
 # Сode example
-
-1.6 **String** object 
-*The input of your function is a string of several words separated by a space, you need to capitalize the first letter of each word and combine all words with "-", as shown in the example.*[https://stepik.org/course/53182/syllabus]
+ 
+The input of your function is a string of several words separated by a space, you need to capitalize the first letter of each word and combine all words with "-", as shown in the example.*[https://stepik.org/course/53182/syllabus]
 
 ```
 function modify(str){
