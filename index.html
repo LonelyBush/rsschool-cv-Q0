@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link href="style.css" rel="stylesheet" />
+    <title>CV#3. CV. Cross-Check</title>
+  </head>
+  <body>
+    <main class="full-CV">
+      <aside class="quickInfo">
+        <header class="header">
+          <img src="avatar/link.jpg" class="avatar" alt="Фото" />
+          <h1>NIKITA RADEVICH</h1>
+          <article>
+            <div class="line-quickInfo"></div>
+            <h5>FUTURE FRONT-END DEVELOPER</h5>
+          </article>
+        </header>
+
+        <article>
+          <h3>CONTACT</h3>
+          <div class="line-quickInfo"></div>
+          <ul>
+            <li class="contacts-list discord-logo">
+              BonelyLush#0480
+            </li>
+            <li class="contacts-list gmail-logo">
+              <a class="a-contacts" href="mailto:lonely.bush68@gmail.com"
+                >lonely.bush68@gmail.com</a
+              >
+            </li>
+            <li class="contacts-list telegram-logo">
+              <a class="a-contacts" href="https://t.me/LonelyBush"
+                >@LonelyBush</a
+              >
+            </li>
+          </ul>
+        </article>
+
+        <article>
+          <h3>SKILL</h3>
+          <div class="line-quickInfo"></div>
+          <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript - Basics</li>
+            <li>Adobe Photoshop</li>
+            <li>Flexbox Grid - Basics</li>
+            <li>Bootstrap</li>
+          </ul>
+        </article>
+
+        <article>
+          <h3>LANGUAGE</h3>
+          <div class="line-quickInfo"></div>
+          <ul>
+            <li>English - Intermediate(B1)</li>
+            <li>Russian - Native</li>
+            <li>Belarussian - Native</li>
+          </ul>
+        </article>
+      </aside>
+      <section class="main-place">
+        <h3 class="title-main">EDUCATION</h3>
+        <article>
+          <div class="line-main"></div>
+          <div>
+            <h4 class="education-univ">Belarusian-Russian University</h4>
+            <div class="education-spec">
+              Speciality: <i>Economics and organization of production</i>
+            </div>
+          </div>
+        </article>
+
+        <article>
+          <h3 class="title-main">ABOUT ME</h3>
+          <div class="line-main"></div>
+          <div class="about-me">
+            I am 24 years old. My current job is full of ordinary and
+            uninteresting routine. However, among my colleagues, I have
+            established myself as a responsible, reliable and executive person.
+            I have always wanted to try my hand at web development, because I am
+            attracted by the tasks that this activity poses for itself. I know I
+            still have a lot to learn, but I believe that with the right
+            approach, I will eventually achieve my goal. The main thing is to
+            never stop working and always be ready to learn something new !
+          </div>
+        </article>
+
+        <article>
+          <h3 class="title-main">CODE EXAMPLE</h3>
+          <div class="line-main"></div>
+          <div>
+            <a
+              class="code-example"
+              href="https://stepik.org/course/53182/syllabus"
+              >The input of your function is a string of several words separated
+              by a space, you need to capitalize the first letter of each word
+              and combine all words with "-", as shown in the example.</a
+            >
+            <pre>  
+                <code>   
+function modify(str){
+let result = [];
+let a = '';
+let b = str.split(" ");
+
+for (let i=0; i &lt; b.length; i++) {
+a += b[i][0].toUpperCase()+b[i].slice(1)+ " ";
+}
+
+result = a.split(" ").filter(Boolean).join("-");
+                                      
+return result;   
+}
+           
+</code>                 
+</pre>
+          </div>
+        </article>
+
+        <article>
+          <h3 class="title-main">COURSES</h3>
+          <div class="line-main"></div>
+          <ul class="courses">
+            <li>
+              <a href="https://stepik.org/cert/1169561"
+                >Web Development for Beginners: HTML and CSS (completed)</a
+              >
+            </li>
+            <li>
+              <a href="https://stepik.org/course/53182/syllabus"
+                >JavaScript. Programming from Basics to Web Applications (+
+                Vue.js)(in progress)</a
+              >
+            </li>
+            <li>
+              <a href="https://rs.school/js-stage0/"
+                >RS Schools Course «JavaScript/Front-end. Stage 0»(in
+                progress)</a
+              >
+            </li>
+          </ul>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-img">
+        <a class="footer-link" href="https://rs.school/js/"
+          ><img
+            width="150"
+            src="https://rs.school/images/rs_school_js.svg"
+            alt="RS School-logo"
+        /></a>
+      </div>
+      <div class="footer-img">
+        <a class="footer-link" href="https://github.com/LonelyBush"
+          ><img
+            width="60"
+            src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"
+            alt="Git-Hub Logo"
+        /></a>
+      </div>
+      <div class="year">© 2022</div>
+    </footer>
+  </body>
+</html>
